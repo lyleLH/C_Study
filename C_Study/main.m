@@ -52,7 +52,6 @@ int main(void)
     int a = PI;
     
     printf("%d\n", a);
- #endif
     /**
      *  例3
      */
@@ -62,9 +61,21 @@ int main(void)
     
     printf("%c\n%c\n",*(str+1),*(char *)(pInt+1));
 
+#endif
 
+//    for(int i = 3 ;i > 1 ; i --) {
+//        
+//        printf("1\n");
+//    }
     
-
+    int i = 1;
+    
+    int a = 2;
+    
+    a = (i ++);
+    
+    printf("%d \n", a);
+    
     
     return 0;
     

@@ -1,5 +1,11 @@
 # C_Study
-## 例子解释：
+
+
+## 运算操作符
+
+[裘宗燕：C/C++ 语言中的表达式求值]( https://github.com/lyleLH/C_Study/operation.md “裘宗燕：C/C++ 语言中的表达式求值”)
+
+##  指针
 
 ###基础概念
 - 常量
@@ -63,3 +69,4 @@
     int * p = (int*)add;
 
 ```
+
