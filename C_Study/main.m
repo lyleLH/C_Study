@@ -8,6 +8,31 @@
 
 #include <stdio.h>
 
+
+int myfunc(int a ,int b ) {
+    int m , n ;
+    if (a > b) {
+        m = a ;
+        n = b ;
+    }else{
+        m = b ;
+        n = a ;
+    }
+    int temp = 1;
+    int r = 0;
+    while (temp!=0) {
+        temp = m % n;
+        if(temp == 0 ){
+            return n;
+        }
+        m = n ;
+        n = temp;
+    }
+    return r;
+}
+
+
+
 int main(void)
 
 {
@@ -61,7 +86,7 @@ int main(void)
     
     printf("%c\n%c\n",*(str+1),*(char *)(pInt+1));
 
-#endif
+
 
 //    for(int i = 3 ;i > 1 ; i --) {
 //        
@@ -75,8 +100,18 @@ int main(void)
     a = (i ++);
     
     printf("%d \n", a);
+ #endif
     
-    
+    int a,b;
+    printf("输入两个整数a,b:");
+    scanf("%d%d",&a,&b);
+    printf("a = %d,b = %d\n",a,b);
+    printf("%d\n",myfunc(a, b));
     return 0;
     
 }
+
+
+
+
+
