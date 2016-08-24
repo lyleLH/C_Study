@@ -3,7 +3,7 @@
 
 ## 运算操作符
 
-[裘宗燕：C/C++ 语言中的表达式求值]( https://github.com/lyleLH/C_Study/blob/master/operation.md “裘宗燕：C/C++ 语言中的表达式求值”)
+[裘宗燕：C/C++ 语言中的表达式求值]( https://github.com/lyleLH/C_Study/blob/master/operation.md "裘宗燕：C/C++ 语言中的表达式求值")
 
 ##  指针
 
