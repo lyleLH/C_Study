@@ -1,12 +1,13 @@
 //
-//  main.m
+//  pointer01.c
 //  C_Study
 //
-//  Created by lyleKP on 16/7/19.
-//  Copyright © 2016年 lyleKP. All rights reserved.
+//  Created by lyle on 2017/3/1.
+//  Copyright © 2017年 lyleKP. All rights reserved.
 //
 
-#include <stdio.h>
+#include "pointer01.h"
+
 
 
 int myfunc(int a ,int b ) {
@@ -31,11 +32,8 @@ int myfunc(int a ,int b ) {
     return r;
 }
 
-
-
-int main(void)
-
-{
+void pointeSample (){
+    
     
     /**
      *  例1
@@ -85,13 +83,13 @@ int main(void)
     int* pInt = (int*) str;
     
     printf("%c\n%c\n",*(str+1),*(char *)(pInt+1));
-
-
-
-//    for(int i = 3 ;i > 1 ; i --) {
-//        
-//        printf("1\n");
-//    }
+    
+    
+    
+    //    for(int i = 3 ;i > 1 ; i --) {
+    //
+    //        printf("1\n");
+    //    }
     
     int i = 1;
     
@@ -100,18 +98,12 @@ int main(void)
     a = (i ++);
     
     printf("%d \n", a);
- #endif
+#endif
     
     int a,b;
     printf("输入两个整数a,b:");
     scanf("%d%d",&a,&b);
     printf("a = %d,b = %d\n",a,b);
     printf("%d\n",myfunc(a, b));
-    return 0;
     
 }
-
-
-
-
-

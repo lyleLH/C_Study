@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		984EAC321D3E0559002E1FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 984EAC311D3E0559002E1FFD /* main.m */; };
+		26DE465D1E670D48004E3C39 /* float01.c in Sources */ = {isa = PBXBuildFile; fileRef = 26DE465B1E670D48004E3C39 /* float01.c */; };
+		26DE46601E670D6E004E3C39 /* pointer01.c in Sources */ = {isa = PBXBuildFile; fileRef = 26DE465E1E670D6E004E3C39 /* pointer01.c */; };
+		26DE46621E670F56004E3C39 /* withoutHeader.c in Sources */ = {isa = PBXBuildFile; fileRef = 26DE46611E670F56004E3C39 /* withoutHeader.c */; };
+		984EAC321D3E0559002E1FFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 984EAC311D3E0559002E1FFD /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26DE465B1E670D48004E3C39 /* float01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = float01.c; sourceTree = "<group>"; };
+		26DE465C1E670D48004E3C39 /* float01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float01.h; sourceTree = "<group>"; };
+		26DE465E1E670D6E004E3C39 /* pointer01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pointer01.c; sourceTree = "<group>"; };
+		26DE465F1E670D6E004E3C39 /* pointer01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointer01.h; sourceTree = "<group>"; };
+		26DE46611E670F56004E3C39 /* withoutHeader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = withoutHeader.c; sourceTree = "<group>"; };
 		984EAC2E1D3E0559002E1FFD /* C_Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Study; sourceTree = BUILT_PRODUCTS_DIR; };
-		984EAC311D3E0559002E1FFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		984EAC311D3E0559002E1FFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,12 @@
 		984EAC301D3E0559002E1FFD /* C_Study */ = {
 			isa = PBXGroup;
 			children = (
-				984EAC311D3E0559002E1FFD /* main.m */,
+				984EAC311D3E0559002E1FFD /* main.c */,
+				26DE465B1E670D48004E3C39 /* float01.c */,
+				26DE465C1E670D48004E3C39 /* float01.h */,
+				26DE465E1E670D6E004E3C39 /* pointer01.c */,
+				26DE465F1E670D6E004E3C39 /* pointer01.h */,
+				26DE46611E670F56004E3C39 /* withoutHeader.c */,
 			);
 			path = C_Study;
 			sourceTree = "<group>";
@@ -88,7 +101,7 @@
 		984EAC261D3E0559002E1FFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = lyleKP;
 				TargetAttributes = {
 					984EAC2D1D3E0559002E1FFD = {
@@ -118,7 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				984EAC321D3E0559002E1FFD /* main.m in Sources */,
+				984EAC321D3E0559002E1FFD /* main.c in Sources */,
+				26DE46621E670F56004E3C39 /* withoutHeader.c in Sources */,
+				26DE465D1E670D48004E3C39 /* float01.c in Sources */,
+				26DE46601E670D6E004E3C39 /* pointer01.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +155,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -183,8 +201,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -239,6 +259,7 @@
 				984EAC371D3E0559002E1FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
