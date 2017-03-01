@@ -8,14 +8,15 @@
 
 #include <stdio.h>
 #include "float01.h"
-
+#include "array01.h"
 void  testFileRefrence();
 
 int main(void)
 
 {
-    testFileRefrence();
-    floatSample01();
+//    testFileRefrence();
+//    floatSample01();
+    aryInitialSample();
     return 0;
     
 }

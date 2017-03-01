@@ -23,7 +23,7 @@ void floatSample01() {
     
     printf("他们的合集值是%5d。\n",sum);
     printf("它们的平均值是%5.1f。\n",ave);
-    
+    printf("它们的平均值是%05.1f。\n",ave);
     
 }
 
@@ -35,6 +35,6 @@ void floatSample01() {
  整数C:2
  他们的合集值是    6。  //注意输出结果 %5d 至少显示5位整数，不足5位 用空格代替了
  它们的平均值是  2.0。//至少显示5位整数，但是小数点后只显示1位u
- Program ended with exit code: 0
+ 它们的平均值是002.0。
  
  */
