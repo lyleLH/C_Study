@@ -11,6 +11,7 @@
 		26DE46601E670D6E004E3C39 /* pointer01.c in Sources */ = {isa = PBXBuildFile; fileRef = 26DE465E1E670D6E004E3C39 /* pointer01.c */; };
 		26DE46621E670F56004E3C39 /* withoutHeader.c in Sources */ = {isa = PBXBuildFile; fileRef = 26DE46611E670F56004E3C39 /* withoutHeader.c */; };
 		26DE46651E671719004E3C39 /* array01.c in Sources */ = {isa = PBXBuildFile; fileRef = 26DE46631E671719004E3C39 /* array01.c */; };
+		26DE46681E671BD8004E3C39 /* assignment01.c in Sources */ = {isa = PBXBuildFile; fileRef = 26DE46661E671BD8004E3C39 /* assignment01.c */; };
 		984EAC321D3E0559002E1FFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 984EAC311D3E0559002E1FFD /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		26DE46611E670F56004E3C39 /* withoutHeader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = withoutHeader.c; sourceTree = "<group>"; };
 		26DE46631E671719004E3C39 /* array01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = array01.c; sourceTree = "<group>"; };
 		26DE46641E671719004E3C39 /* array01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array01.h; sourceTree = "<group>"; };
+		26DE46661E671BD8004E3C39 /* assignment01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = assignment01.c; sourceTree = "<group>"; };
+		26DE46671E671BD8004E3C39 /* assignment01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assignment01.h; sourceTree = "<group>"; };
 		984EAC2E1D3E0559002E1FFD /* C_Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Study; sourceTree = BUILT_PRODUCTS_DIR; };
 		984EAC311D3E0559002E1FFD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +79,8 @@
 				26DE46611E670F56004E3C39 /* withoutHeader.c */,
 				26DE46631E671719004E3C39 /* array01.c */,
 				26DE46641E671719004E3C39 /* array01.h */,
+				26DE46661E671BD8004E3C39 /* assignment01.c */,
+				26DE46671E671BD8004E3C39 /* assignment01.h */,
 			);
 			path = C_Study;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				26DE46621E670F56004E3C39 /* withoutHeader.c in Sources */,
 				26DE465D1E670D48004E3C39 /* float01.c in Sources */,
 				26DE46601E670D6E004E3C39 /* pointer01.c in Sources */,
+				26DE46681E671BD8004E3C39 /* assignment01.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
